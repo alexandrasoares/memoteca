@@ -1,0 +1,22 @@
+<div *ngFor="let option of options">
+  <label>
+    <input type="radio" name="options" [(ngModel)]="selectedOption" [value]="option">
+    {{ option }}
+  </label>
+</div>
+
+<div *ngIf="selectedOption === 'Option 1'">
+  <div style="height: 100px; width: 100px; background: blue;">
+
+  </div>
+</div>
+<div *ngIf="selectedOption === 'Option 2'">
+  <div style="height: 100px; width: 100px; background: green;">
+
+  </div>
+</div>
+<div *ngIf="selectedOption === 'Option 3'">
+  <div style="height: 100px; width: 100px; background: red;">
+
+  </div>
+</div>
