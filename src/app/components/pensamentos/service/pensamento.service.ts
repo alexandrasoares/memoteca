@@ -15,21 +15,26 @@ export class PensamentoService {
     private http: HttpClient
   ) { }
 
-  listarPensamentos(): Observable<PensamentoInterface[]> {
-    return this.http.get<PensamentoInterface[]>(this.API);
-  }
-
   criarPensamento(pensamento: PensamentoInterface): Observable<PensamentoInterface> {
     return this.http.post<PensamentoInterface>(this.API, pensamento);
   }
 
+  listarPensamentos(): Observable<PensamentoInterface[]> {
+    return this.http.get<PensamentoInterface[]>(this.API);
+  }
+
+  editarPensamento(pensamento: PensamentoInterface): Observable<PensamentoInterface> {
+    const url = `${this.API}/${pensamento.id}`
+    return this.http.put<PensamentoInterface>(url, pensamento);
+  }
+
   excluirPensamento(id: number): Observable<PensamentoInterface> {
     const url = `${this.API}/${id}`
-    return this.http.delete<PensamentoInterface>(url)
+    return this.http.delete<PensamentoInterface>(url);
   }
 
   buscarPensamentoPorId(id: number): Observable<PensamentoInterface> {
     const url = `${this.API}/${id}`
-    return this.http.get<PensamentoInterface>(url)
+    return this.http.get<PensamentoInterface>(url);
   }
 }
