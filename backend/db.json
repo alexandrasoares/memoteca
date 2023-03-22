@@ -1,12 +1,6 @@
 {
   "pensamentos": [
     {
-      "id": 1,
-      "conteudo": "Vê se não me leva a mal, eu tiro as coisas do lugar... Mas no contexto geral, tô tentando melhorar...",
-      "autoria": "Alexandra",
-      "modelo": "modelo2"
-    },
-    {
       "id": 2,
       "conteudo": "Passei por tantas flores, não foram só espinhos...",
       "autoria": "Alexandra",
@@ -83,12 +77,6 @@
       "autoria": "",
       "modelo": "modelo1",
       "id": 14
-    },
-    {
-      "conteudo": "Teste com Router ",
-      "autoria": "",
-      "modelo": "modelo1",
-      "id": 15
     }
   ]
 }

@@ -22,4 +22,14 @@ export class PensamentoService {
   criarPensamento(pensamento: PensamentoInterface): Observable<PensamentoInterface> {
     return this.http.post<PensamentoInterface>(this.API, pensamento);
   }
+
+  excluirPensamento(id: number): Observable<PensamentoInterface> {
+    const url = `${this.API}/${id}`
+    return this.http.delete<PensamentoInterface>(url)
+  }
+
+  buscarPensamentoPorId(id: number): Observable<PensamentoInterface> {
+    const url = `${this.API}/${id}`
+    return this.http.get<PensamentoInterface>(url)
+  }
 }
