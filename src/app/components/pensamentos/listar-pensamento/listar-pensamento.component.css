@@ -14,5 +14,10 @@
 
 .sem-pensamentos {
   text-align: center;
-  padding: 2rem 0 5rem;
+  padding: 3rem 0;
+  background-color: #6BD1FF;
+  border: 1px solid #479bc1;
+  color: beige;
+  border-radius: 8px;
+  box-sizing: border-box;
 }
