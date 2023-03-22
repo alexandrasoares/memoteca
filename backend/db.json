@@ -2,75 +2,93 @@
   "pensamentos": [
     {
       "id": 1,
-      "conteudo": "Que bom que voce veio",
+      "conteudo": "Vê se não me leva a mal, eu tiro as coisas do lugar... Mas no contexto geral, tô tentando melhorar...",
       "autoria": "Alexandra",
       "modelo": "modelo2"
     },
     {
       "id": 2,
-      "conteudo": "Que bom que voce veio",
+      "conteudo": "Passei por tantas flores, não foram só espinhos...",
       "autoria": "Alexandra",
       "modelo": "modelo1"
     },
     {
       "id": 3,
-      "conteudo": "Que bom que voce veio",
+      "conteudo": "Vamos fugir desse lugar, baby?",
       "autoria": "Alexandra",
       "modelo": "modelo3"
     },
     {
       "id": 4,
-      "conteudo": "Que bom que voce veio",
+      "conteudo": "As vezes eu tenho um certo ranço de daily viu...",
       "autoria": "Alexandra",
       "modelo": "modelo3"
     },
     {
       "id": 5,
-      "conteudo": "Que bom que voce veio",
+      "conteudo": "Não gosto de tomar café de tarde, mas hoje estou precisando",
       "autoria": "Alexandra",
       "modelo": "modelo1"
     },
     {
       "id": 6,
-      "conteudo": "Que bom que voce veio",
+      "conteudo": "Fazer o que né...",
       "autoria": "Alexandra",
       "modelo": "modelo2"
     },
     {
       "id": 7,
-      "conteudo": "Que bom que voce veio",
+      "conteudo": "Senti um cheiro bom que me lembrou um perfume que já usei, mas não lembro o nome",
       "autoria": "Alexandra",
       "modelo": "modelo2"
     },
     {
       "id": 8,
-      "conteudo": "Que bom que voce veio",
+      "conteudo": "Um banho gelado no início do dia não muda tudo, mas muda muito...",
       "autoria": "Alexandra",
       "modelo": "modelo1"
     },
     {
       "id": 9,
-      "conteudo": "Que bom que voce veio",
+      "conteudo": "Só música alto astral hoje!!",
       "autoria": "Alexandra",
       "modelo": "modelo3"
     },
     {
       "id": 10,
-      "conteudo": "Que bom que voce veio",
+      "conteudo": "A energia do final de semana já tá vindo com tudoooo. Bora!!",
       "autoria": "Alexandra",
       "modelo": "modelo2"
     },
     {
       "id": 11,
-      "conteudo": "Que bom que voce veio",
+      "conteudo": "I'd say, they're looking up Take all my trouble, 'cause I had enough",
       "autoria": "Alexandra",
       "modelo": "modelo1"
     },
     {
       "id": 12,
-      "conteudo": "Que bom que voce veio",
+      "conteudo": "Vivo pela nostalgia de dias bons, tentando fazer com que eles aconteçam agora...",
       "autoria": "Alexandra",
       "modelo": "modelo1"
+    },
+    {
+      "conteudo": "Pensamento Teste",
+      "autoria": "",
+      "modelo": "modelo1",
+      "id": 13
+    },
+    {
+      "conteudo": "Pensamento Teste",
+      "autoria": "",
+      "modelo": "modelo1",
+      "id": 14
+    },
+    {
+      "conteudo": "Teste com Router ",
+      "autoria": "",
+      "modelo": "modelo1",
+      "id": 15
     }
   ]
 }
