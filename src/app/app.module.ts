@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { CabecalhoComponent } from './components/cabecalho/cabecalho.component';
 import { RodapeComponent } from './components/rodape/rodape.component';
 import { CriarPensamentosComponent } from './components/pensamentos/criar-pensamentos/criar-pensamentos.component';
+import { ListarPensamentoComponent } from './components/pensamentos/listar-pensamento/listar-pensamento.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CriarPensamentosComponent } from './components/pensamentos/criar-pensam
     HomeComponent,
     CabecalhoComponent,
     RodapeComponent,
-    CriarPensamentosComponent
+    CriarPensamentosComponent,
+    ListarPensamentoComponent
   ],
   imports: [
     BrowserModule,
