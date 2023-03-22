@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { PensamentoInterface } from '../pensamento.interface';
 
 @Component({
   selector: 'app-pensamento',
@@ -7,7 +8,8 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class PensamentoComponent implements OnInit {
 
-  @Input() pensamento = {
+  @Input() pensamento: PensamentoInterface = {
+    id: 1,
     conteudo: 'Angular',
     autoria: 'Alexandra',
     modelo: 'modelo2',
@@ -16,7 +18,6 @@ export class PensamentoComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-
   }
 
   ajustarLarguraPensamento(): string {
