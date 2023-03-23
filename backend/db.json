@@ -5,7 +5,7 @@
       "conteudo": "Passei por tantas flores, não foram só espinhos... [Editado]",
       "autoria": "Alexandra",
       "modelo": "modelo2",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 3,
@@ -26,7 +26,7 @@
       "conteudo": "Não gosto de tomar café de tarde, mas hoje estou precisando [Editado]",
       "autoria": "Alexandra",
       "modelo": "modelo2",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 6,
@@ -40,7 +40,7 @@
       "conteudo": "Senti um cheiro bom que me lembrou um perfume que já usei, mas não lembro o nome",
       "autoria": "Alexandra",
       "modelo": "modelo2",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 8,
@@ -54,7 +54,7 @@
       "conteudo": "Só música alto astral hoje!!",
       "autoria": "Alexandra",
       "modelo": "modelo3",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 10,
@@ -81,35 +81,35 @@
       "conteudo": "Pensamento Teste",
       "autoria": "",
       "modelo": "modelo1",
-      "favorito": true,
+      "favorito": false,
       "id": 13
     },
     {
       "conteudo": "Pensamento Teste",
       "autoria": "",
       "modelo": "modelo1",
-      "favorito": true,
+      "favorito": false,
       "id": 14
     },
     {
       "conteudo": "Pensamento Teste",
       "autoria": "",
       "modelo": "modelo1",
-      "favorito": true,
+      "favorito": false,
       "id": 15
     },
     {
       "conteudo": "Pensamento Teste",
       "autoria": "",
       "modelo": "modelo1",
-      "favorito": true,
+      "favorito": false,
       "id": 16
     },
     {
       "conteudo": "Pensamento Teste",
       "autoria": "",
       "modelo": "modelo1",
-      "favorito": true,
+      "favorito": false,
       "id": 17
     },
     {
