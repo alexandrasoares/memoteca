@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { PensamentoInterface } from '../pensamento.interface';
 import { PensamentoService } from '../service/pensamento.service';
 
@@ -17,7 +18,8 @@ export class ListarPensamentoComponent implements OnInit {
   listaFavoritos: PensamentoInterface[] = [];
 
   constructor(
-    private pensamentoService: PensamentoService
+    private pensamentoService: PensamentoService,
+    private router: Router,
   ) {}
 
   ngOnInit(): void {
@@ -57,5 +59,13 @@ export class ListarPensamentoComponent implements OnInit {
       this.listaPensamento = listaFavoritos;
       this.listaFavoritos = listaFavoritos;
     });
+  }
+
+  recarregarMural() {
+    this.favoritos = false;
+    this.paginaAtual = 1;
+    this.router.routeReuseStrategy.shouldReuseRoute = () => false;
+    this.router.onSameUrlNavigation = 'reload';
+    this.router.navigate([this.router.url]);
   }
 }

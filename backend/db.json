@@ -5,14 +5,14 @@
       "conteudo": "Passei por tantas flores, não foram só espinhos... [Editado]",
       "autoria": "Alexandra",
       "modelo": "modelo2",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 3,
       "conteudo": "Vamos fugir desse lugar, baby?",
       "autoria": "Alexandra",
       "modelo": "modelo3",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 4,
@@ -26,14 +26,14 @@
       "conteudo": "Não gosto de tomar café de tarde, mas hoje estou precisando [Editado]",
       "autoria": "Alexandra",
       "modelo": "modelo2",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 6,
       "conteudo": "Fazer o que né...",
       "autoria": "Alexandra",
       "modelo": "modelo2",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 7,
@@ -61,7 +61,7 @@
       "conteudo": "A energia do final de semana já tá vindo com tudoooo. Bora!!",
       "autoria": "Alexandra",
       "modelo": "modelo2",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 11,
@@ -81,7 +81,7 @@
       "conteudo": "Pensamento Teste",
       "autoria": "",
       "modelo": "modelo1",
-      "favorito": false,
+      "favorito": true,
       "id": 13
     },
     {

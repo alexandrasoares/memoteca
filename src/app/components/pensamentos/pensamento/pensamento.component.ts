@@ -38,7 +38,6 @@ export class PensamentoComponent implements OnInit {
     if(this.pensamento.favorito == false) {
       return 'inativo'
     }
-
     return 'ativo'
   }
 
