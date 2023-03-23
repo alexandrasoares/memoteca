@@ -11,6 +11,8 @@ export class ListarPensamentoComponent implements OnInit {
 
   listaPensamento: PensamentoInterface[] = [];
   paginaAtual: number = 1;
+  maisPensamentos: boolean = true;
+
   constructor(
     private pensamentoService: PensamentoService
   ) {}
@@ -23,5 +25,15 @@ export class ListarPensamentoComponent implements OnInit {
     this.pensamentoService.listarPensamentos(this.paginaAtual).subscribe((response) => {
       this.listaPensamento = response;
     });
+  }
+
+  carregarMaisPensamentos() {
+    this.pensamentoService.listarPensamentos(++this.paginaAtual).subscribe(listaPensamento => {
+      this.listaPensamento.push(...listaPensamento);
+
+      if(!listaPensamento.length) {
+        this.maisPensamentos = false;
+      }
+    })
   }
 }

@@ -1,0 +1,21 @@
+.carregar-mais {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.mensagem-center {
+  text-align: center;
+  padding: 1rem;
+  background-color: #6BD1FF;
+  border: 1px solid #479bc1;
+  color: beige;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  max-width: 20rem;
+  margin-bottom: 3rem;
+}

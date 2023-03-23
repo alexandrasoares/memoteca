@@ -1,0 +1,14 @@
+<div class="center" *ngIf="maisPensamentos; else semMaisPensamentos">
+  <button class="botao carregar-mais">
+    Carregar mais pensamentos
+  </button>
+</div>
+
+<!-- implementar funcionalidade de voltar para o topo -->
+<ng-template #semMaisPensamentos>
+  <div class="center">
+    <p class="ff-inter mensagem-center">
+      Nao ha mais pensamentos!
+    </p>
+  </div>
+</ng-template>

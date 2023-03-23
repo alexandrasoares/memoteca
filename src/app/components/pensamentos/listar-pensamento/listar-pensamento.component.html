@@ -11,6 +11,8 @@
   </div>
 </section>
 
+<app-paginacao [maisPensamentos]="maisPensamentos" (click)="carregarMaisPensamentos()" ></app-paginacao>
+
 <ng-template #semPensamentos>
   <div class="ff-inter sem-pensamentos">
     <p>
