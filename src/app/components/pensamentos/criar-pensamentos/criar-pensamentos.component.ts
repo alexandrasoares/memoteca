@@ -42,4 +42,12 @@ export class CriarPensamentosComponent implements OnInit {
       })
     }
   }
+
+  habilitarBotao() {
+    if (this.formulario.valid) {
+      return 'botao'
+    }
+
+    return 'botao__desabilitado'
+  }
 }
