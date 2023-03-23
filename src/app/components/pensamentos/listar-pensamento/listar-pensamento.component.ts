@@ -10,7 +10,7 @@ import { PensamentoService } from '../service/pensamento.service';
 export class ListarPensamentoComponent implements OnInit {
 
   listaPensamento: PensamentoInterface[] = [];
-
+  paginaAtual: number = 1;
   constructor(
     private pensamentoService: PensamentoService
   ) {}
@@ -20,7 +20,7 @@ export class ListarPensamentoComponent implements OnInit {
   }
 
   carregarPensamentosLista() {
-    this.pensamentoService.listarPensamentos().subscribe((response) => {
+    this.pensamentoService.listarPensamentos(this.paginaAtual).subscribe((response) => {
       this.listaPensamento = response;
     });
   }
