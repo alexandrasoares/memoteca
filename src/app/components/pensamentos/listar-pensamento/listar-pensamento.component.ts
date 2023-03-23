@@ -13,6 +13,7 @@ export class ListarPensamentoComponent implements OnInit {
   paginaAtual: number = 1;
   maisPensamentos: boolean = true;
   filtro: string = '';
+  favoritos: boolean = false;
 
   constructor(
     private pensamentoService: PensamentoService
@@ -23,13 +24,13 @@ export class ListarPensamentoComponent implements OnInit {
   }
 
   carregarPensamentosLista() {
-    this.pensamentoService.listarPensamentos(this.paginaAtual, this.filtro).subscribe((response) => {
+    this.pensamentoService.listarPensamentos(this.paginaAtual, this.filtro, this.favoritos).subscribe((response) => {
       this.listaPensamento = response;
     });
   }
 
   carregarMaisPensamentos() {
-    this.pensamentoService.listarPensamentos(++this.paginaAtual, this.filtro).subscribe(listaPensamento => {
+    this.pensamentoService.listarPensamentos(++this.paginaAtual, this.filtro, this.favoritos).subscribe(listaPensamento => {
       this.listaPensamento.push(...listaPensamento);
 
       if(!listaPensamento.length) {
@@ -41,8 +42,18 @@ export class ListarPensamentoComponent implements OnInit {
   pesquisarPensamentos() {
     this.maisPensamentos = true;
     this.paginaAtual = 1;
-    this.pensamentoService.listarPensamentos(this.paginaAtual, this.filtro).subscribe(lista => {
+    this.pensamentoService.listarPensamentos(this.paginaAtual, this.filtro, this.favoritos).subscribe(lista => {
       this.listaPensamento = lista;
+    });
+  }
+
+  listarFavoritos() {
+    this.favoritos = true;
+    this.maisPensamentos = true;
+    this.paginaAtual = 1;
+
+    this.pensamentoService.listarPensamentos(this.paginaAtual, this.filtro, this.favoritos).subscribe(listaFavoritos => {
+      this.listaPensamento = listaFavoritos;
     });
   }
 }
