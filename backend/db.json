@@ -4,78 +4,91 @@
       "id": 2,
       "conteudo": "Passei por tantas flores, não foram só espinhos... [Editado]",
       "autoria": "Alexandra",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "id": 3,
       "conteudo": "Vamos fugir desse lugar, baby?",
       "autoria": "Alexandra",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": true
     },
     {
       "id": 4,
       "conteudo": "As vezes eu tenho um certo ranço de daily viu...",
       "autoria": "Alexandra",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "id": 5,
       "conteudo": "Não gosto de tomar café de tarde, mas hoje estou precisando [Editado]",
       "autoria": "Alexandra",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "id": 6,
       "conteudo": "Fazer o que né...",
       "autoria": "Alexandra",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": true
     },
     {
       "id": 7,
       "conteudo": "Senti um cheiro bom que me lembrou um perfume que já usei, mas não lembro o nome",
       "autoria": "Alexandra",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "id": 8,
       "conteudo": "Um banho gelado no início do dia não muda tudo, mas muda muito...",
       "autoria": "Alexandra",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": false
     },
     {
       "id": 9,
       "conteudo": "Só música alto astral hoje!!",
       "autoria": "Alexandra",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "id": 10,
       "conteudo": "A energia do final de semana já tá vindo com tudoooo. Bora!!",
       "autoria": "Alexandra",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "id": 11,
       "conteudo": "I'd say, they're looking up Take all my trouble, 'cause I had enough",
       "autoria": "Alexandra",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": false
     },
     {
       "id": 12,
       "conteudo": "Vivo pela nostalgia de dias bons, tentando fazer com que eles aconteçam agora...",
       "autoria": "Alexandra",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": false
     },
     {
       "conteudo": "Pensamento Teste",
       "autoria": "",
       "modelo": "modelo1",
+      "favorito": true,
       "id": 13
     },
     {
       "conteudo": "Pensamento Teste",
       "autoria": "",
       "modelo": "modelo1",
+      "favorito": true,
       "id": 14
     }
   ]
