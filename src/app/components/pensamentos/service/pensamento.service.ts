@@ -19,12 +19,16 @@ export class PensamentoService {
     return this.http.post<PensamentoInterface>(this.API, pensamento);
   }
 
-  listarPensamentos(pagina: number): Observable<PensamentoInterface[]> {
+  listarPensamentos(pagina: number, filtro: string): Observable<PensamentoInterface[]> {
     const itensPorPagina = 6;
 
     let params = new HttpParams()
     .set("_page", pagina)
     .set("_limit", itensPorPagina)
+
+    if (filtro.trim().length > 2) {
+      params = params.set("q", filtro);
+    }
 
     //return this.http.get<PensamentoInterface[]>(`${this.API}?_page=${pagina}&_limit=${itensPorPagina}`);
 
